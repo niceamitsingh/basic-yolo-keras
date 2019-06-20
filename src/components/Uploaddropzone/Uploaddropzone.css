@@ -1,0 +1,24 @@
+
+.dropzone{
+    background-color: #f2f2f2;
+    border: 2px solid #dddddd;
+    border-style: dashed;
+    padding: 3em 2em 3em 2em;
+    width: 16em;
+    text-align: center;
+    font-family: 'Circular Std';
+    font-size: 14px;
+    font-weight: 300;
+    color: #9AA1AA;
+    border-radius: 8px;
+    transition: all 0.5s;
+}
+
+#Uploadfile{
+    padding-top: 16px;
+}
+
+ul{
+    padding: 0;
+    color: #138BFC;
+}

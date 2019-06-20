@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <style>
+            .cls-1,.cls-3{fill:none}.cls-2{clip-path:url(#clip-path)}.cls-3{stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+        </style>
+        <clipPath id="clip-path">
+            <path d="M0 0h36v36H0z" class="cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="Profile" class="cls-2">
+        <path id="Rectangle_2445" d="M0 0h36v36H0z" class="cls-1" data-name="Rectangle 2445"/>
+        <g id="Group_1493" data-name="Group 1493" transform="translate(-12207.939 78)">
+            <circle id="Ellipse_622" cx="10.591" cy="10.591" r="10.591" class="cls-1" data-name="Ellipse 622" transform="rotate(-2.26 4328.869 -309669.467)"/>
+            <circle id="Ellipse_623" cx="10.591" cy="10.591" r="10.591" class="cls-3" data-name="Ellipse 623" transform="rotate(-2.26 4328.869 -309669.467)"/>
+            <path id="Path_4172" d="M21.746 23.227a4.631 4.631 0 1 0-4.726.19c-2.761.665-4.813 2.264-5.2 4.149a10.554 10.554 0 0 0 15.47-.614c-.57-1.84-2.739-3.265-5.544-3.725z" class="cls-3" data-name="Path 4172" transform="translate(12206.684 -80.032)"/>
+        </g>
+    </g>
+</svg>

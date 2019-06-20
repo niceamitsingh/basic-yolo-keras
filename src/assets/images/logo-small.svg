@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1{fill:rgba(255,255,255,0);stroke:rgba(0,0,0,0)}.cls-2{fill:#25bbb0}.cls-3{fill:#fed10d}.cls-4{fill:#0579a1}.cls-5{fill:#ef5098}.cls-6{fill:#6a51ac}.cls-7{fill:#93c83e}.cls-8{fill:#17a7e0}.cls-9{stroke:none}.cls-10{fill:none}
+        </style>
+    </defs>
+    <g id="Logo_small" data-name="Logo small" transform="translate(-933 -30)">
+        <g id="spacer" class="cls-1">
+            <path d="M0 0h24v24H0z" class="cls-9" transform="translate(933 30)"/>
+            <path d="M.5.5h23v23H.5z" class="cls-10" transform="translate(933 30)"/>
+        </g>
+        <g id="Group_1022" data-name="Group 1022" transform="translate(935.667 32.769)">
+            <circle id="Ellipse_516" cx="4.499" cy="4.499" r="4.499" class="cls-2" data-name="Ellipse 516" transform="translate(0 3.039)"/>
+            <circle id="Ellipse_517" cx="2.999" cy="2.999" r="2.999" class="cls-3" data-name="Ellipse 517" transform="translate(8.197)"/>
+            <circle id="Ellipse_518" cx="2.25" cy="2.25" r="2.25" class="cls-4" data-name="Ellipse 518" transform="translate(13.418 6.895)"/>
+            <circle id="Ellipse_519" cx="2.25" cy="2.25" r="2.25" class="cls-5" data-name="Ellipse 519" transform="translate(2.25 13.011)"/>
+            <circle id="Ellipse_521" cx=".75" cy=".75" r=".75" class="cls-6" data-name="Ellipse 521" transform="translate(10.449 8.452)"/>
+            <circle id="Ellipse_522" cx="1.5" cy="1.5" r="1.5" class="cls-7" data-name="Ellipse 522" transform="translate(15.667 13.789)"/>
+            <circle id="Ellipse_520" cx="2.999" cy="2.999" r="2.999" class="cls-8" data-name="Ellipse 520" transform="translate(8.197 12.232)"/>
+        </g>
+    </g>
+</svg>

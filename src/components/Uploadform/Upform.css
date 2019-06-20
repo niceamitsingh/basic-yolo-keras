@@ -1,14 +1,21 @@
 #Upform_block{
     width: auto;
     height: 100vh;
-    margin: 5% 12% 5% 12%;
+    margin: 5% 12% 5% 16%;
 }
 
 #spacer{
-    margin-top: 24%;
+    margin-top: 5vh;
     padding-top: 10px;
     margin-right: 4em;
     border-top: 1px solid #eee;
+}
+
+.Formfooter{
+   position: fixed;
+   bottom: 6em;
+    display: flex;
+    flex-direction: column;
 }
 
 #aix_image{
@@ -25,14 +32,88 @@
 
 h2{
     color:#3C4044;
-
 }
 
 h5{
     color: #9AA1AA;
 }
 
-/* overiding styles css for react-select, "because I can't seem to find it."- Aravind */
+input{
+    border-radius: 8px;
+    background-color: #f2f2f2;
+    padding: 0.8em 1em 0.8em 1em;
+    font-size: 14px;
+    border: 2px solid #f2f2f2;
+    width: 18em;
+    color: #3C4044;
+    font-family: 'Circular Std' !important;
+        font-weight: 300 !important;
+    outline: none;
+    transition: all 0.2s;
+    }
+    
+    ::placeholder{
+      font-size: 14px;
+      text-align: left;
+      color: #83878D;
+      font-family: 'Circular Std' !important;
+        font-weight: 300 !important;
+      
+    }
+    
+    * {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+    
+      input:focus{
+          color: #138BFC;
+          border: 2px solid #DDDDDD;
+          background-color: white;
+          box-shadow: 0px 2px 2px rgba(0,0,0,0.06);
+          transition: all 0.2s;
+    
+      }
+
+
+
+.Btn{
+    width: 20em;
+    padding: 1em 1em 1em 1em;
+    color: #9AA1AA;
+    background-color: #fff;
+    border: 2px solid #eee;
+    border-radius: 8px;
+    font-family: 'Circular Std';
+    font-weight: 500;
+    font-size: 14px;
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.16);
+    text-align: center;
+}
+
+.Transbtn{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    padding: 0.5em 1em 0.5em 1em;
+    color: #9AA1AA;
+    background-color: #fff;
+    border-radius: 8px;
+    font-family: 'Circular Std';
+    font-weight: 300;
+    font-size: 14px;
+    border:none;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+
+/* overiding styles css for react-select, "because I can't seem to find it."- Aravind   link for the component - https://react-select.com/components  */
 
 .css-yk16xz-control{
     background-color:#f2f2f2 !important;
@@ -87,3 +168,8 @@ h5{
     font-weight: 300 !important;
 }
 
+
+
+/* link for the tabs component - https://reactcommunity.org/react-tabs/ */
+
+/* link for the upload component - https://react-dropzone.js.org/ */
