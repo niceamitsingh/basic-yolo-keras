@@ -1,0 +1,89 @@
+#Upform_block{
+    width: auto;
+    height: 100vh;
+    margin: 5% 12% 5% 12%;
+}
+
+#spacer{
+    margin-top: 24%;
+    padding-top: 10px;
+    margin-right: 4em;
+    border-top: 1px solid #eee;
+}
+
+#aix_image{
+    background-color: #eeeeee;
+    width: 4em;
+    height: 4em;
+    border-radius: 100px;
+    background-image: url(../../assets/images/img_newmodel.png);
+}
+
+#Form_block{
+    margin-top: 2em;
+}
+
+h2{
+    color:#3C4044;
+
+}
+
+h5{
+    color: #9AA1AA;
+}
+
+/* overiding styles css for react-select, "because I can't seem to find it."- Aravind */
+
+.css-yk16xz-control{
+    background-color:#f2f2f2 !important;
+    border-radius: 8px !important;
+    border: 2px solid #f2f2f2 !important;
+    width: 20.5em !important;
+    margin-top: 0.5em !important;
+    padding: 0em 0em 0em 0.2em !important;
+    font-family: 'Circular Std' !important;
+    font-weight: 300 !important;
+    font-size: 14px !important;
+    color: #83878D !important;
+}
+
+.css-1pahdxg-control{
+    background-color:#ffffff !important;
+    border-radius: 8px !important;
+    width: 20.5em !important;
+    margin-top: 0.5em !important;
+    padding: 0em 0em 0em 0.2em !important;
+    color: #138BFC !important;
+    border: 2px solid #DDDDDD !important;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.06) !important;
+    transition: all 0.2s !important;
+    font-family: 'Circular Std' !important;
+    font-weight: 300 !important;
+    font-size: 14px !important;
+}
+
+.select__menu{
+    background-color: red !important;
+    width: 18em !important;
+}
+
+.select__placeholder{
+    font-family: 'Circular Std' !important;
+    font-weight: 300 !important;
+    font-size: 14px !important;
+} 
+
+.css-26l3qy-menu{
+    font-size: 14px !important;
+    background-color: red !important;
+    background-color:#ffffff !important;
+    border-radius: 8px !important;
+    width: 20.5em !important;
+    margin-top: 0.5em !important;
+    border: 2px solid #DDDDDD !important;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.06) !important;
+    transition: all 0.2s !important;
+    font-family: 'Circular Std' !important;
+    font-weight: 300 !important;
+}
+
