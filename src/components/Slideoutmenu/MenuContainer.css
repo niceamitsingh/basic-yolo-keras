@@ -1,7 +1,6 @@
 #MenuBackground{
     width: 84px;
     height: 100vh;
-    border: 1px solid black;
 }
 
 
@@ -27,6 +26,12 @@
     height: 100%;
 }
 
+#Menutop{
+position: relative;
+top: calc(30% - 100px);
+}
+
+
 .explore{
     background-image: url(../../assets/images/explore.svg);
     background-repeat: no-repeat;
@@ -36,17 +41,31 @@
     background-size: fill;
     border-radius: 8px;
     padding: 4px;
-    transition: all 0.2s;
+    transition: all 0.1s;
+    margin: 16px 0 16px 0;
+    cursor: pointer;
 }
 
 .explore:hover{
     background-color: rgba(0,0,0,0.1);
-    transition: all 0.2s;
+    transition: all 0.1s;
 }
 
 .explore:active{
     background-color: rgba(0,0,0,0.2);
 
+}
+
+#addbtn{
+    background-color:transparent;
+    border: none;
+    outline: none;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: -2px;
+    top: -2px;
+    cursor: pointer;
 }
 
 .add{
@@ -58,12 +77,14 @@
     background-size: fill;
     border-radius: 8px;
     padding: 4px;
-    transition: all 0.2s;
+    transition: all 0.1s;
+    margin: 16x 0 16px 0;
+    cursor: pointer;
 }
 
 .add:hover{
     background-color: rgba(0,0,0,0.1);
-    transition: all 0.2s;
+    transition: all 0.1s;
 }
 
 .add:active{
@@ -80,12 +101,14 @@
     background-size: fill;
     border-radius: 8px;
     padding: 4px;
-    transition: all 0.2s;
+    transition: all 0.1s;
+    margin: 16px 0 16px 0;
+    cursor: pointer;
 }
 
 .dashboard:hover{
     background-color: rgba(0,0,0,0.1);
-    transition: all 0.2s;
+    transition: all 0.1s;
 }
 
 .dashboard:active{
@@ -102,12 +125,14 @@
     background-size: fill;
     border-radius: 8px;
     padding: 4px;
-    transition: all 0.2s;
+    transition: all 0.1s;
+    margin: 16px 0 16px 0;
+    cursor: pointer;
 }
 
 .settings:hover{
     background-color: rgba(0,0,0,0.1);
-    transition: all 0.2s;
+    transition: all 0.1s;
 }
 
 .settings:active{
@@ -126,12 +151,14 @@
     background-size: fill;
     border-radius: 8px;
     padding: 4px;
-    transition: all 0.2s;
+    transition: all 0.1s;
+    margin: 16px 0 16px 0;
+    cursor: pointer;
 }
 
 .profile:hover{
     background-color: rgba(0,0,0,0.1);
-    transition: all 0.2s;
+    transition: all 0.1s;
 }
 
 .profile:active{

@@ -34,24 +34,23 @@ class MenuContainer extends Component {
   render() {
 
     return (
-      // <div>
-      // <MenuButton handleMouseDown={this.handleMouseDown}/>
-      // <Menu handleMouseDown={this.handleMouseDown}
-      // menuVisibility={this.state.visible}/>
-      // </div>
 
-      <div>
-        <div id="MenuBackground">
-          <div className="logo"></div>
+    <div>
+      <div id="MenuBackground">
+        <div className="logo"></div>
           <div id="Menucontrol">
-            <div className="explore"></div>
-            <div className="add"></div>
-            <div className="dashboard"></div>
-            <div className="settings"></div>
-            <div className="profile"></div>
+              <div id="Menutop">
+                <div className="explore"></div>
+                <div className="add">
+                <MenuButton className="add"  handleMouseDown={this.handleMouseDown}/> </div>
+                <Menu handleMouseDown={this.handleMouseDown} menuVisibility={this.state.visible}/>
+                <div className="dashboard"></div>
+                <div className="settings"></div>
+                <div className="profile"></div>
+              </div>
           </div>
-        </div>
       </div>
+    </div>
     );
   }
 }
