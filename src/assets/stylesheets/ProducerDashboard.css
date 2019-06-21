@@ -1,0 +1,111 @@
+.App {
+align-items: flex-start;
+}
+body {
+    margin: 0;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.Rectangle-2408 {
+    width: 960px;
+    height: 462px;
+    background-color: rgba(238, 238, 238, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.Rectangle-2394 {
+    order: 0;
+    width: 304px;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.06);
+    border: solid 1px #eeeeee;
+    background-color: #ffffff;
+    flex: auto;
+    align-items: flex-start;
+    margin-left: 4px;
+}
+.Rectangle-2395 {
+    flex: auto;
+    order: 1;
+    align-items: flex-start;
+    width: 304px;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.06);
+    border: solid 1px #eeeeee;
+    background-color: #ffffff;
+    margin-left: 20px;
+}
+.Rectangle-2396 {
+    order: 2;
+    width: 304px;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.06);
+    border: solid 1px #eeeeee;
+    background-color: #ffffff;
+    margin-left: 20px;
+}
+.dashboard-Boxes {
+
+    width: 960px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    background-color: #3c4044;
+}
+.dashboard-title {
+    width: 182px;
+    height: 46px;
+    font-family: CircularStd;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.69;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3c4044;
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+}
+.All-models {
+    color: #9aa1aa;
+}
+.HeaderTitle {
+    align-items: baseline;
+    align-content: flex-start;
+}
+.Header-Panel {
+    height: 70px;
+    width: 100%;
+    background-color: #5D47AA;
+}
+.Header-Panel1 {
+    height: 100px;
+    width: 960px;
+    background-color: #9aa1aa;
+}
+.Header-Panel2 {
+    height: 120px;
+    width: 960px;
+    background-color: #3c4044;
+}
+.Header-Panel3 {
+    height: 430px;
+    width: 960px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0px;
+
+}
