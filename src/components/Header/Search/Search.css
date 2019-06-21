@@ -1,0 +1,129 @@
+.react-autosuggest__container {
+    position: relative;
+  }
+  
+  .react-autosuggest__input {
+    width: 900px;
+    height: 34px;
+    padding: 10px 22px 10px 22px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border: none;
+    border-radius: 16px;
+    background-color: rgba(0,0,0,0.12);
+    border: 2px solid transparent;
+    text-align: center;
+    color: white;
+  }
+  
+  .react-autosuggest__input--focused {
+    outline: none;
+  }
+  
+  .react-autosuggest__input--open {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  .react-autosuggest__suggestions-container {
+    display: none;
+  }
+  
+  .react-autosuggest__input::placeholder{
+    text-align: center;
+    color: rgba(255,255,255,0.7);
+}
+
+
+
+  .react-autosuggest__suggestions-container--open {
+    display: block;
+    position: absolute;
+    top: 52px;
+    width: 100%;
+    background-color: #fff;
+    color: #3C4044;
+    font-family: 'Circular Std';
+    font-weight: 500;
+    font-size: 16px;
+    z-index: 2;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0px 3px 3px rgba(0,0,0,0.12);
+  }
+  
+  .react-autosuggest__suggestions-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .react-autosuggest__suggestion {
+    cursor: pointer;
+    padding: 10px 20px;
+  }
+
+  .react-autosuggest__suggestion ul{
+      color: red !important;
+  }
+  
+  .react-autosuggest__suggestion--highlighted {
+    background-color: #ddd;
+  }
+  
+  .react-autosuggest__section-container {
+    border-top: 1px solid #fff;
+  }
+  
+  .react-autosuggest__section-container--first {
+    border-top: 0;
+  }
+  
+  .react-autosuggest__section-title {
+    padding: 10px 0 0 10px;
+    font-size: 12px;
+    color: #777;
+  }
+  
+
+  #Searchicon{
+    background-image: url(../../../assets/images/search.svg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    height: 36px;
+    width: 36px;
+    background-size: fill;
+    border-radius: 8px;
+    transition: all 0.1s;
+    left: calc(28% - 30px);
+    top: 33px;
+    position: absolute;
+    z-index: 1000;
+}
+
+.react-autosuggest__input:focus{
+   background-color: white;
+   text-align: center;
+   color: #3C4044;
+   font-size: 16px;
+   border-radius: 8px;
+  
+   border: 2px solid white;
+
+
+
+}
+#newidforicon{
+    background-image: url(../../../assets/images/search_black.svg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    height: 36px;
+    width: 36px;
+    background-size: fill;
+    border-radius: 8px;
+    transition: all 0.1s;
+    left: calc(28% - 30px);
+    top: 33px;
+    position: absolute;
+    z-index: 1000;
+}

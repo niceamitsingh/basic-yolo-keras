@@ -1,0 +1,26 @@
+#Header_block{
+    position: absolute;
+    height: 92px;
+    width: 100%;
+    top: 0;
+}
+
+.Search_block{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+}
+/* .Search_icon{
+    background-image: url(../../assets/images/search.svg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    height: 36px;
+    width: 36px;
+    background-size: fill;
+    border-radius: 8px;
+    transition: all 0.1s;
+    left: calc(28% - 30px);
+    top: 33px;
+    position: absolute;
+} */
+
