@@ -173,3 +173,76 @@ input{
 /* link for the tabs component - https://reactcommunity.org/react-tabs/ */
 
 /* link for the upload component - https://react-dropzone.js.org/ */
+
+
+
+/* Styles from react tabs*/
+
+
+.react-tabs {
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .react-tabs__tab-list {
+    border-bottom: 1px solid #eee;
+    width: 18em;
+    transition: all 0.2s;
+    padding: 0;
+  }
+  
+  .react-tabs__tab {
+    display: inline-block;
+    border-bottom: 2px solid white;
+    bottom: 0px;
+    position: relative;
+    list-style: none;
+    padding: 0px 16px 6px 16px;
+    cursor: pointer;
+    font-family: 'Circular Std';
+    font-weight: 500;
+    font-size: 12px;
+    color: #83878D;
+    transition: all 0.2s;
+  }
+  
+  .react-tabs__tab--selected {
+    background: #fff;
+    border-bottom: 3px solid #138BFC;
+    color: #138BFC;
+    transition: all 0.2s;
+  }
+  
+  .react-tabs__tab--disabled {
+    color: GrayText;
+    cursor: default;
+  }
+  
+  .react-tabs__tab:focus {
+    outline: none;
+    transition: all 0.2s;
+    border-bottom: 3px solid #138BFC;
+  }
+  
+  .react-tabs__tab:focus:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    left: 0px;
+    right: 0px;
+    bottom: -3px;
+    background: #fff;
+    border-bottom: 3px solid #138BFC;
+  }
+  
+  .react-tabs__tab-panel {
+    display: none;
+  }
+  
+  .react-tabs__tab-panel--selected {
+    display: block;
+    
+  }
+  
+
+
+

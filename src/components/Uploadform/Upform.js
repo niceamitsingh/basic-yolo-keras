@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./Upform.css";
 import Select from 'react-select';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import "react-tabs/style/react-tabs.css";
 import StyledDropzone from "../Uploaddropzone/Uploaddropzone";
 
 
