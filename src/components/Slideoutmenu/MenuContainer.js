@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Menu from "./Menu";
 import MenuButton from "./MenuButton";
 import "./MenuContainer.css";
+import {Link} from "react-router-dom";
  
 class MenuContainer extends Component {
 
@@ -37,14 +38,20 @@ class MenuContainer extends Component {
 
     <div>
       <div id="MenuBackground">
-        <div className="logo"></div>
+        <Link to="/">
+        {<div className="logo"></div>}
+        </Link>
+          
+        
           <div id="Menucontrol">
               <div id="Menutop">
                 <div className="explore"></div>
                 <div className="add">
                 <MenuButton className="add"  handleMouseDown={this.handleMouseDown}/> </div>
                 <Menu handleMouseDown={this.handleMouseDown} menuVisibility={this.state.visible}/>
-                <div className="dashboard"></div>
+                <Link to="/Producer">{
+                <div className="dashboard"></div>}
+                </Link>
                 <div className="settings"></div>
                 <div className="profile"></div>
               </div>

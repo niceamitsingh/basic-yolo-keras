@@ -188,7 +188,8 @@ class Autosug extends Component {
     };
 
     return (
-      <div id="autos" >
+      <div id="autos">
+        <div className="Dark_bg"></div>
       <div id={this.state.icon}></div>
 
       <Autosuggest 

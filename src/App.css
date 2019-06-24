@@ -70,3 +70,9 @@ h5{
   font-size: 14px;
   margin: 0;
 }
+
+#Make_fixed{
+  position:fixed !important;
+  z-index: 90;
+}
+
