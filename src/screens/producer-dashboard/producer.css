@@ -80,7 +80,7 @@ body{
     flex-direction: row;
     border-radius: 8px;
     box-shadow: 0px 3px 3px rgba(0,0,0,0.06);
-    border: 1px solid #eee;
+    
     height: 200px;
     width: 300px;
     margin: 8px 8px 8px 8px;
@@ -102,4 +102,218 @@ table{
     border-collapse: collapse;
   width: 100%;
   text-align: left;
+  font-family: 'Circular Std';
+  font-weight: 500;
+    
+}
+
+
+th{
+    padding: 16px 0px 16px 0px;
+    font-size: 10px;
+    color: #9AA1AA;
+    background-color: #f6f6f6;
+}
+
+tr:hover{
+    background-color: #f6f6f6;
+    transition: all 0.2s;
+    box-shadow: 0px 3px 3px rgba(0,0,0,0.06);
+    
+}
+
+tr{
+    transition: all 0.2s;
+}
+
+td{
+    color:#3C4044;
+    border-bottom: 1px solid #eee;
+}
+
+th{
+    cursor: pointer;
+}
+
+td:nth-child(1){
+    letter-spacing: -0.2px;
+    padding: 40px 10px 30px 20px;
+    
+}
+
+th:nth-child(1){
+    background-color: #f6f6f6;
+    border-top-left-radius: 8px;
+    padding-left: 20px;
+    border-bottom-left-radius: 8px;
+    width: 18%;
+}
+
+th:nth-child(7){
+    background-color: #f6f6f6;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+td:nth-child(2){
+    width:1px;
+    text-align: left;
+}
+
+.weaw{
+    font-size: 12px;
+    color: #9AA1AA;
+    font-weight: 300;
+}
+
+.v_no2{
+    background-color: #DBEEFF;
+    color: #138BFC;
+    border-radius: 100px;
+    padding: 2px 6px 3px 8px;
+    margin-right: 32px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+td:nth-child(3){
+    width: 112px;
+    padding-left: 46px;
+}
+
+td:nth-child(5){
+    width: 120px;
+}
+
+td:nth-child(6){
+    width: 80px;
+}
+
+td:nth-child(7){
+    width: 80px;
+}
+
+td:nth-child(8){
+    width: 130px;
+}
+
+
+th:nth-child(3){
+    padding-left: 46px;
+}
+
+th:nth-child(4){
+    padding-left: 10px;
+    width: 120px;
+}
+
+.Change_value{
+    color:#219025;
+    padding-left: 10px;
+    display: inline;
+}
+
+td:nth-child(4){
+    padding-left: 10px;
+}
+
+.relative_count{
+    background-image: linear-gradient(to right, red, yellow, green);
+    width: 80px;
+    height: 3px;
+    position: relative;
+    bottom: -36px;
+    opacity: 0.8;
+}
+
+.Arrow{
+    position: relative;
+    bottom: 13px;
+    font-size: 9px;
+    color: red;
+    opacity: 0.8;
+    left: 4px;
+}
+
+.Title_table{
+    font-size: 10px;
+    color: #9AA1AA;
+}
+
+
+.Action_1{
+    width: 36px;
+    height:36px;
+    border-radius: 100px;
+    display: inline-block;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.Action_2{
+    width: 36px;
+    height:36px;
+    border-radius: 100px;
+    background-color: #eee;
+    display: inline-block;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.Action_3{
+    width: 36px;
+    height:36px;
+    border-radius: 100px;
+    background-color: #eee;
+    display: inline-block;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.recharts-surface{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.recharts-area-curve{
+stroke-width: 4px;
+}
+
+.recharts-curve{
+    cursor: pointer;
+}
+
+.recharts-cartesian-grid-horizontal{
+stroke-opacity: 0.3;
+}
+
+.recharts-cartesian-grid-vertical{
+    stroke-opacity: 0.3;    
+}
+
+.recharts-cartesian-axis-ticks{
+display: none;
+}
+
+
+.Title_on_graph{
+    position: absolute;
+    font-family: 'Circular Std';
+    font-weight: 900;
+    color: #9AA1AA;
+    font-size: 10px;
+    padding-top: 18px;
+    padding-left: 18px;
+    letter-spacing: 0.5px;
+}
+
+.Value_on_graph{
+    position: absolute;
+    font-family: 'Circular Std';
+    font-weight: 700;
+    color: #3C4044;
+    font-size: 24px;
+    padding-top: 28px;
+    padding-left: 18px;
+    letter-spacing: 0.5px;
 }
