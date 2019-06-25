@@ -1,0 +1,24 @@
+{
+    "BasicInfo": {
+        "pageTitle": "AI marketplace for India",
+        "pageSubTitle": "Bring all AI producers and consumers together",
+        "searchBoxTitle": "Search for Domains, Services and Providers"
+    },
+    "dashboardPanels":{
+        "allDomains":{
+        "panelTitle":"All domains",
+        "panelSubTitle":"28+",
+        "panelIcon":"../images/all_domain_icon.png"
+    },
+    "allServices": {
+        "panelTitle": "All services",
+        "panelSubTitle": "116+",
+        "panelIcon": "../images/all_domain_icon.png"
+        },
+        "TextToSpeech": {
+            "panelTitle": "Text to speech",
+            "panelSubTitle": "Speech",
+            "panelIcon": "../images/all_domain_icon.png"
+        }
+    }
+}

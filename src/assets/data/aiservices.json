@@ -1,0 +1,80 @@
+{
+    "data": {
+        "results": [
+            {
+                "id": "4097e81a-6070-400e-bb66-dbe69107fa43",
+                "createdAt": "2019-06-20T11:20:33.097775Z",
+                "updatedAt": "2019-06-20T11:20:33.097775Z",
+                "deletedAt": null,
+                "name": "speechToText",
+                "label": "speechToText",
+                "value": "speechToText",
+                "description": "Speech to text",
+                "aixdomainId": "5f5a4600-5a93-46a9-92eb-4190df3a4a36",
+                "serviceContract": {},
+                "qualifiers": {
+                    "language": true
+                }
+            },
+            {
+                "id": "34cabedc-9c95-4874-aa30-f932144d64b3",
+                "createdAt": "2019-06-20T11:20:33.113316Z",
+                "updatedAt": "2019-06-20T11:20:33.113316Z",
+                "deletedAt": null,
+                "name": "textToSpeech",
+                "label": "textToSpeech",
+                "value": "textToSpeech",
+                "description": "Text to speech",
+                "aixdomainId": "5f5a4600-5a93-46a9-92eb-4190df3a4a36",
+                "serviceContract": {},
+                "qualifiers": {
+                    "language": true
+                }
+            },
+            {
+                "id": "ce1a30ca-868f-4e9b-9e7f-e9ac17b6ad25",
+                "createdAt": "2019-06-20T11:20:33.128954Z",
+                "updatedAt": "2019-06-20T11:20:33.128954Z",
+                "deletedAt": null,
+                "name": "faceComparison",
+                "label": "faceComparison",
+                "value": "faceComparison",
+                "description": "Face comparison",
+                "aixdomainId": "e96f4ab8-ef1c-490b-816a-058240bc646e",
+                "serviceContract": {},
+                "qualifiers": {}
+            },
+            {
+                "id": "0887b9e9-03ec-4a82-a7a1-74989d4e0ff5",
+                "createdAt": "2019-06-20T11:20:33.14522Z",
+                "updatedAt": "2019-06-20T11:20:33.14522Z",
+                "deletedAt": null,
+                "name": "labelDetection",
+                "label": "labelDetection",
+                "value": "labelDetection",
+                "description": "Label detection",
+                "aixdomainId": "e96f4ab8-ef1c-490b-816a-058240bc646e",
+                "serviceContract": {},
+                "qualifiers": {}
+            },
+            {
+                "id": "df67f716-7688-4b31-ad0c-9a7326e2a6b6",
+                "createdAt": "2019-06-20T11:20:33.160037Z",
+                "updatedAt": "2019-06-20T11:20:33.160037Z",
+                "deletedAt": null,
+                "name": "faceDetection",
+                "label": "faceDetection",
+                "value": "faceDetection",
+                "description": "Face comparison",
+                "aixdomainId": "e96f4ab8-ef1c-490b-816a-058240bc646e",
+                "serviceContract": {},
+                "qualifiers": {}
+            }
+        ]
+    },
+    "status": {
+        "code": 200,
+        "message": "Aix service found successfully",
+        "success": true
+    }
+}

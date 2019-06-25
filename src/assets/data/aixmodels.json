@@ -1,0 +1,235 @@
+{
+  "data": {
+    "results": [
+      {
+        "id": "668aea60-30c5-447d-a185-ac60e4e28156",
+        "createdAt": "2019-06-20T11:20:33.175831Z",
+        "updatedAt": "2019-06-20T11:20:33.175831Z",
+        "deletedAt": null,
+        "name": "speechToTextGCE",
+        "description": "Speech to text of GCE",
+        "aixserviceId": "4097e81a-6070-400e-bb66-dbe69107fa43",
+        "providerId": "2",
+        "version": 1,
+        "type": "API_CALL",
+        "url": "http://aix-api-wrapper:4200/speech/speech_to_text/GOOGLE",
+        "urlMethod": "POST",
+        "preProcessTransformer": "DEFAULT",
+        "postProcessTransformer": "DEFAULT",
+        "qualifiers": {
+          "language": [
+            "en-US"
+          ]
+        },
+        "isDefaultOfAixservice": true,
+        "buildConfig": {},
+        "buildStatus": "DRAFT"
+      },
+      {
+        "id": "11593d97-0dcc-4736-9e7f-26ff08119057",
+        "createdAt": "2019-06-20T11:20:33.26981Z",
+        "updatedAt": "2019-06-20T11:20:33.26981Z",
+        "deletedAt": null,
+        "name": "speechToTextJIO",
+        "description": "Speech to text of JIO",
+        "aixserviceId": "4097e81a-6070-400e-bb66-dbe69107fa43",
+        "providerId": "1",
+        "version": 1,
+        "type": "API_CALL",
+        "url": "http://aix-api-wrapper:4200/speech/speech_to_text/JIO",
+        "urlMethod": "POST",
+        "preProcessTransformer": "DEFAULT",
+        "postProcessTransformer": "DEFAULT",
+        "qualifiers": {
+          "language": [
+            "en-US"
+          ]
+        },
+        "isDefaultOfAixservice": false,
+        "buildConfig": {},
+        "buildStatus": "DRAFT"
+      },
+      {
+        "id": "aad55630-d908-4145-b638-d71ab43e27fd",
+        "createdAt": "2019-06-20T11:20:33.286037Z",
+        "updatedAt": "2019-06-20T11:20:33.286037Z",
+        "deletedAt": null,
+        "name": "speechToTextAWS",
+        "description": "Speech to text of AWS",
+        "aixserviceId": "4097e81a-6070-400e-bb66-dbe69107fa43",
+        "providerId": "3",
+        "version": 1,
+        "type": "API_CALL",
+        "url": "http://aix-api-wrapper:4200/speech/speech_to_text/AWS",
+        "urlMethod": "POST",
+        "preProcessTransformer": "DEFAULT",
+        "postProcessTransformer": "DEFAULT",
+        "qualifiers": {
+          "language": [
+            "en-US"
+          ]
+        },
+        "isDefaultOfAixservice": false,
+        "buildConfig": {},
+        "buildStatus": "DRAFT"
+      },
+      {
+        "id": "b9ad8a74-e21b-43dc-a9c1-2ec3f670f807",
+        "createdAt": "2019-06-20T11:20:33.300893Z",
+        "updatedAt": "2019-06-20T11:20:33.300893Z",
+        "deletedAt": null,
+        "name": "speechToTextREVERIE",
+        "description": "Speech to text of REVERIE",
+        "aixserviceId": "4097e81a-6070-400e-bb66-dbe69107fa43",
+        "providerId": "4",
+        "version": 1,
+        "type": "API_CALL",
+        "url": "http://aix-api-wrapper:4200/speech/speech_to_text/REVERIE",
+        "urlMethod": "POST",
+        "preProcessTransformer": "DEFAULT",
+        "postProcessTransformer": "DEFAULT",
+        "qualifiers": {
+          "language": [
+            "en-US"
+          ]
+        },
+        "isDefaultOfAixservice": false,
+        "buildConfig": {},
+        "buildStatus": "DRAFT"
+      },
+      {
+        "id": "9ac08496-bde0-4d98-b2b1-9f2719660ef4",
+        "createdAt": "2019-06-20T11:20:33.316424Z",
+        "updatedAt": "2019-06-20T11:20:33.316424Z",
+        "deletedAt": null,
+        "name": "faceComparisonJIO",
+        "description": "Face comparison of JIO",
+        "aixserviceId": "ce1a30ca-868f-4e9b-9e7f-e9ac17b6ad25",
+        "providerId": "1",
+        "version": 1,
+        "type": "API_CALL",
+        "url": "http://aix-api-wrapper:4200/vision/face_comparison/JIO",
+        "urlMethod": "POST",
+        "preProcessTransformer": "DEFAULT",
+        "postProcessTransformer": "DEFAULT",
+        "qualifiers": {},
+        "isDefaultOfAixservice": false,
+        "buildConfig": {},
+        "buildStatus": "DRAFT"
+      },
+      {
+        "id": "2144d648-3cdf-4f9c-8837-50136bab91f4",
+        "createdAt": "2019-06-20T11:20:33.332818Z",
+        "updatedAt": "2019-06-20T11:20:33.332818Z",
+        "deletedAt": null,
+        "name": "faceComparisonAWS",
+        "description": "Face comparison of AWS",
+        "aixserviceId": "ce1a30ca-868f-4e9b-9e7f-e9ac17b6ad25",
+        "providerId": "3",
+        "version": 1,
+        "type": "API_CALL",
+        "url": "http://aix-api-wrapper:4200/vision/face_comparison/AWS",
+        "urlMethod": "POST",
+        "preProcessTransformer": "DEFAULT",
+        "postProcessTransformer": "DEFAULT",
+        "qualifiers": {},
+        "isDefaultOfAixservice": true,
+        "buildConfig": {},
+        "buildStatus": "DRAFT"
+      },
+      {
+        "id": "fb2b1c12-2587-4da4-af88-969450b735c8",
+        "createdAt": "2019-06-20T11:20:33.347627Z",
+        "updatedAt": "2019-06-20T11:20:33.347627Z",
+        "deletedAt": null,
+        "name": "labelDetectionGCE",
+        "description": "Label detection of GCE",
+        "aixserviceId": "0887b9e9-03ec-4a82-a7a1-74989d4e0ff5",
+        "providerId": "2",
+        "version": 1,
+        "type": "API_CALL",
+        "url": "http://aix-api-wrapper:4200/vision/label_detection/GOOGLE",
+        "urlMethod": "POST",
+        "preProcessTransformer": "DEFAULT",
+        "postProcessTransformer": "DEFAULT",
+        "qualifiers": {},
+        "isDefaultOfAixservice": true,
+        "buildConfig": {},
+        "buildStatus": "DRAFT"
+      },
+      {
+        "id": "8cc96346-0cd3-40ba-82df-a5c8c62881dd",
+        "createdAt": "2019-06-20T11:20:33.363293Z",
+        "updatedAt": "2019-06-20T11:20:33.363293Z",
+        "deletedAt": null,
+        "name": "labelDetectionAWS",
+        "description": "Label detection of AWS",
+        "aixserviceId": "0887b9e9-03ec-4a82-a7a1-74989d4e0ff5",
+        "providerId": "3",
+        "version": 1,
+        "type": "API_CALL",
+        "url": "http://aix-api-wrapper:4200/vision/label_detection/AWS",
+        "urlMethod": "POST",
+        "preProcessTransformer": "DEFAULT",
+        "postProcessTransformer": "DEFAULT",
+        "qualifiers": {},
+        "isDefaultOfAixservice": false,
+        "buildConfig": {},
+        "buildStatus": "DRAFT"
+      },
+      {
+        "id": "4bbc3628-dc32-43be-808e-1fc149bc1277",
+        "createdAt": "2019-06-20T11:20:33.37876Z",
+        "updatedAt": "2019-06-20T11:20:33.37876Z",
+        "deletedAt": null,
+        "name": "textToSpeechGCEForEN",
+        "description": "Text to speech of GCE for english",
+        "aixserviceId": "34cabedc-9c95-4874-aa30-f932144d64b3",
+        "providerId": "2",
+        "version": 1,
+        "type": "API_CALL",
+        "url": "http://aix-api-wrapper:4200/speech/text_to_speech/GOOGLE?language=en-US",
+        "urlMethod": "POST",
+        "preProcessTransformer": "DEFAULT",
+        "postProcessTransformer": "DEFAULT",
+        "qualifiers": {
+          "language": [
+            "en-US"
+          ]
+        },
+        "isDefaultOfAixservice": true,
+        "buildConfig": {},
+        "buildStatus": "DRAFT"
+      },
+      {
+        "id": "f60220b9-446f-4524-ad77-475fbdeae2c4",
+        "createdAt": "2019-06-20T11:20:33.395249Z",
+        "updatedAt": "2019-06-20T11:20:33.395249Z",
+        "deletedAt": null,
+        "name": "textToSpeechGCEForFR",
+        "description": "Text to speech of GCE for french",
+        "aixserviceId": "34cabedc-9c95-4874-aa30-f932144d64b3",
+        "providerId": "2",
+        "version": 1,
+        "type": "API_CALL",
+        "url": "http://aix-api-wrapper:4200/speech/text_to_speech/GOOGLE?language=fr-FR",
+        "urlMethod": "POST",
+        "preProcessTransformer": "DEFAULT",
+        "postProcessTransformer": "DEFAULT",
+        "qualifiers": {
+          "language": [
+            "fr-FR"
+          ]
+        },
+        "isDefaultOfAixservice": true,
+        "buildConfig": {},
+        "buildStatus": "DRAFT"
+      }
+    ]
+  },
+  "status": {
+    "code": 200,
+    "message": "aixmodel found successfully",
+    "success": true
+  }
+}

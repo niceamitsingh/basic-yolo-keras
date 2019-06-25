@@ -1,59 +1,139 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import "../Home/Home.css";
+import data from "../../assets/data/homescreen";
 
+import domains from "../../assets/data/domains";
+import services from "../../assets/data/aiservices";
+//import domains from "../../assets/data/domains";
 
-class Home extends Component{
-    render() {
-            return (
-            <div id ="flex-container">
-                <div id="Home_container">
-                 <div className="Heading">
-                    <h1>AI Marketplace for India</h1>
-                    <p>Bringing all AI producers & consumers together</p>
-                    
+class Home extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      contentResponse: data,
+      domainIconPath: ""
+    };
+  }
+
+  async componentDidMount() {
+    console.log(
+      "JSON:" + JSON.stringify(this.state.contentResponse.BasicInfo.pageTitle)
+    );
+  }
+
+  render() {
+    return (
+      <div id="flex-container">
+            {" "}
+        <div id="Home_container">
+          <div className="Heading">
+            <h1>{this.state.contentResponse.BasicInfo.pageTitle}</h1>
+            <p>{this.state.contentResponse.BasicInfo.pageSubTitle}</p>
+          </div>
+          <div className="Home_content_block">
+            <div className="Content_row_1">
+              <div className="Content_block_1">
+                <div className="DomainPanelStyle">
+                  <img
+                    src={require("../../assets/images/all_domain_icon.png")}
+                    className="DomainIcon"
+                    alt=""
+                  />
+                  <div className="DomainTitleContainer">
+                    <div className="DomainPanelTitleStyle">
+                      {
+                        this.state.contentResponse.dashboardPanels.allDomains
+                          .panelTitle
+                      }
+                    </div>
+                    <div className="DomainPanelSubTitleStyle">
+                      {
+                        this.state.contentResponse.dashboardPanels.allDomains
+                          .panelSubTitle
+                      }
+                    </div>
+                  </div>
                 </div>
-                <div className="Home_content_block">
-                    <div className="Content_row_1">
-                        <div className="Content_block_1"></div>
-                        <div className="Content_block_1"></div>
-                        <div className="Content_block_1"></div>
+              </div>
+              <div className="Content_block_1">
+                <div className="DomainPanelStyle">
+                  <img
+                    src={require("../../assets/images/all_domain_icon.png")}
+                    className="DomainIcon"
+                    alt=""
+                  />
+                  <div className="DomainTitleContainer">
+                    <div className="DomainPanelTitleStyle">
+                      {
+                        this.state.contentResponse.dashboardPanels.allServices
+                          .panelTitle
+                      }
                     </div>
-                    <div className="Content_row_1">
-                        <div className="Content_block_3"></div>
-                        <div className="Content_block_2"></div>
-                        <div className="Content_block_3"></div>   
+                    <div className="DomainPanelSubTitleStyle">
+                      {
+                        this.state.contentResponse.dashboardPanels.allServices
+                          .panelSubTitle
+                      }
                     </div>
-                    <div className="Content_row_1">
-                        <div className="Content_block_2"></div>
-                        <div className="adjustment"></div>
-                        <div className="Content_block_2"></div>   
-                    </div>
+                  </div>
                 </div>
-
-            <div className="Section_header">
-                <div className="Section_image_trending"></div>
-                <h1>Trending Services</h1>
+              </div>
+              <div className="Content_block_1">
+                <div className="DomainPanelStyle">
+                  <img
+                    src={require("../../assets/images/all_domain_icon.png")}
+                    className="DomainIcon"
+                    alt=""
+                  />
+                  <div className="DomainTitleContainer">
+                    <div className="DomainPanelTitleStyle">
+                      {
+                        this.state.contentResponse.dashboardPanels.TextToSpeech
+                          .panelTitle
+                      }
+                    </div>
+                    <div className="DomainPanelSubTitleStyle">
+                      {
+                        this.state.contentResponse.dashboardPanels.TextToSpeech
+                          .panelSubTitle
+                      }
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-                <div className="Home_content_block">
-                    <div className="Content_row_1">
-                        <div className="Content_block_3"></div>
-                        <div className="Content_block_2"></div>
-                        <div className="Content_block_3"></div>   
-                    </div>
-                    <div className="Content_row_1">
-                        <div className="Content_block_2"></div>
-                        <div className="adjustment"></div>
-                        <div className="Content_block_2"></div>   
-                    </div>
-                </div>  
-                </div>
+            <div className="Content_row_1">
+              <div className="Content_block_3" />
+              <div className="Content_block_2" />
+              <div className="Content_block_3" />
             </div>
-            );
-          }
-        
+            <div className="Content_row_1">
+              <div className="Content_block_2" />
+              <div className="adjustment" />
+              <div className="Content_block_2" />
+            </div>
+          </div>
 
-
+          <div className="Section_header">
+            <div className="Section_image_trending" />
+            <h1>Trending Services</h1>
+          </div>
+          <div className="Home_content_block">
+            <div className="Content_row_1">
+              <div className="Content_block_3" />
+              <div className="Content_block_2" />
+              <div className="Content_block_3" />
+            </div>
+            <div className="Content_row_1">
+              <div className="Content_block_2" />
+              <div className="adjustment" />
+              <div className="Content_block_2" />
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
-
 
 export default Home;

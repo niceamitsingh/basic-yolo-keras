@@ -1,0 +1,31 @@
+{
+    "data": {
+        "results": [
+            {
+                "id": "5f5a4600-5a93-46a9-92eb-4190df3a4a36",
+                "createdAt": "2019-06-20T11:20:33.064339Z",
+                "updatedAt": "2019-06-20T11:20:33.064339Z",
+                "deletedAt": null,
+                "name": "speech",
+                "label": "speech",
+                "value": "speech",
+                "description": "Speech domain"
+            },
+            {
+                "id": "e96f4ab8-ef1c-490b-816a-058240bc646e",
+                "createdAt": "2019-06-20T11:20:33.083013Z",
+                "updatedAt": "2019-06-20T11:20:33.083013Z",
+                "deletedAt": null,
+                "name": "vision",
+                "label": "vision",
+                "value": "vision",
+                "description": "Vision domain"
+            }
+        ]
+    },
+    "status": {
+        "code": 200,
+        "message": "Aix domain found successfully",
+        "success": true
+    }
+}

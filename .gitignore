@@ -12,7 +12,7 @@ yarn-error.log*
 /.changelog
 .npm/
 package-lock.json
-
+node_modules
 # dependencies
 /node_modules
 /.pnp
@@ -58,3 +58,4 @@ chrome-user-data
 .vscode
 *.swp
 *.swo
+node_modules
