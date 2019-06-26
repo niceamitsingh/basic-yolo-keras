@@ -1,10 +1,6 @@
 import React, { Component } from "react";
-import "../Home/Home.css";
 import data from "../../assets/data/homescreen";
-
-import domains from "../../assets/data/domains";
-import services from "../../assets/data/aiservices";
-//import domains from "../../assets/data/domains";
+import './Home.css';
 
 class Home extends Component {
   constructor(props) {
@@ -24,7 +20,7 @@ class Home extends Component {
   render() {
     return (
       <div id="flex-container">
-            {" "}
+            
         <div id="Home_container">
           <div className="Heading">
             <h1>{this.state.contentResponse.BasicInfo.pageTitle}</h1>

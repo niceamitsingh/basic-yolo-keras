@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import MenuContainer from "../../components/Slideoutmenu/MenuContainer";
 import Header1 from '../../components/Header/Header';
-import Home from '../../components/Home/Home';
 import "../producer-dashboard/producer.css";
 import {LineChart, LineChart2, LineChart3} from "../../components/Charts/Charts";
 

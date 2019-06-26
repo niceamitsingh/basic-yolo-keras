@@ -115,8 +115,8 @@ class Upform extends Component {
     console.log(`Option Service selected:`, selectedServiceOption);
   };
 
- async clickevent1() {
-    if (this.state.modelName == "") {
+  async clickevent1() {
+    if (this.state.modelName === "") {
       alert("please fill all the values");
     } else {
       alert("this works!");
@@ -133,13 +133,14 @@ class Upform extends Component {
           ARTIFACT_DIR_PATH: "string"
         }
       };
-      console.log( "Request Body:" + JSON.stringify(data) );
-     
-       var response = await apiRequest(
+      console.log("Request Body:" + JSON.stringify(data));
+
+      var response = await apiRequest(
         "https://jiobuddy.jio.ril.com/aix/api/aixmodels",
         data
       );
-      console.log( "Response :" + JSON.stringify( response) );
+      alert("Response :" + JSON.stringify(response));
+      console.log("Response :" + JSON.stringify(response));
     }
   }
   render() {
@@ -167,14 +168,12 @@ class Upform extends Component {
               onChange={this.handleDomainChange}
               options={this.state.domainList}
             />
-
             <Select
               placeholder={"Choose service"}
               value={selectedServiceOption}
               onChange={this.handleServiceChange}
               options={this.state.serviceList}
             />
-
             <br />
             <br />
             <Tabs>
